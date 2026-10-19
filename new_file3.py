@@ -1,3 +1,10 @@
 import random
-for i in [random.randint(100) for _ in range(10)]:
-  print(i)
+
+
+def main():
+    for _ in range(10):
+        print(random.randint(1, 100))
+
+
+if __name__ == "__main__":
+    main()
