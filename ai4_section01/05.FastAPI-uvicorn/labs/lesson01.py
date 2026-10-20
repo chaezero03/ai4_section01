@@ -6,3 +6,6 @@ app = FastAPI (title="Lesson 01")
 def root():
     return {"message": "Hello FastAPI!"}
 
+@app.get("/sports")
+def sports():
+    return {"sports": ["Soccer", "Basketball", "Tennis", "Baseball"]}
